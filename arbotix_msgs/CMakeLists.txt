@@ -13,6 +13,10 @@ add_service_files(FILES
                   Relax.srv
                   SetupChannel.srv
                   SetSpeed.srv
+                  ComplianceMarginCW.srv
+                  ComplianceMarginCCW.srv
+                  ComplianceSlopeCW.srv
+                  ComplianceSlopeCCW.srv
                  )
 
 generate_messages(DEPENDENCIES std_msgs)
